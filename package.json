@@ -1,7 +1,7 @@
 {
-  "name": "simple-grocery-api",
+  "name": "simple-pis",
   "version": "1.0.0",
-  "description": "Simple Grocery API with Express",
+  "description": "Simple APIs with Express",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alperg/simple-grocery-api.git"
+    "url": "git+https://github.com/alperg/simple-apis.git"
   },
   "keywords": [
     "express",
@@ -18,11 +18,11 @@
   "author": "Alper Gokcehan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alperg/simple-grocery-api/issues"
+    "url": "https://github.com/alperg/simple-apis/issues"
   },
-  "homepage": "https://github.com/alperg/simple-grocery-api#readme",
+  "homepage": "https://github.com/alperg/simple-apis#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3"
   },
