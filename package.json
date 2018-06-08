@@ -1,0 +1,30 @@
+{
+  "name": "simple-grocery-api",
+  "version": "1.0.0",
+  "description": "Simple Grocery API with Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperg/simple-grocery-api.git"
+  },
+  "keywords": [
+    "express",
+    "api"
+  ],
+  "author": "Alper Gokcehan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alperg/simple-grocery-api/issues"
+  },
+  "homepage": "https://github.com/alperg/simple-grocery-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
