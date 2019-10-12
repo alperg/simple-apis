@@ -7,10 +7,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.use('/', require('./api/customer'));
-app.use('/', require('./api/form'));
-app.use('/', require('./api/grocery'));
-app.use('/', require('./api/employee'));
+app.use('/', require('./routes/apiRoutes'));
 
 app.listen(PORT, function() {
   console.log(`App listening on PORT: ${PORT}`);
