@@ -1,38 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
-const groceryData = [
-  {
-    id: 1,
-    name: 'Apples',
-    isFood: true
-  },
-  {
-    id: 2,
-    name: 'Shampoo',
-    isFood: false
-  },
-  {
-    id: 3,
-    name: 'Milk',
-    isFood: true
-  },
-  {
-    id: 4,
-    name: 'Cereal',
-    isFood: true
-  },
-  {
-    id: 5,
-    name: 'Soda',
-    isFood: true
-  },
-  {
-    id: 6,
-    name: 'Toilet paper',
-    isFood: false
-  }
-];
+const groceryData = require('./grocery.json');
 
 router.get('/grocery', function(req, res) {
   res.json(groceryData);
