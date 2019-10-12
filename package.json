@@ -1,5 +1,5 @@
 {
-  "name": "simple-pis",
+  "name": "simple-apis",
   "version": "1.0.0",
   "description": "Simple APIs with Express",
   "main": "server.js",
