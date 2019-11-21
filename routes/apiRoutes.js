@@ -12,6 +12,6 @@ router.get("/groceries/:id", apiController.getGroceryById);
 
 router.get('/customers', apiController.getCustomers);
 router.get("/customers/:id", apiController.getCustomerById);
-router.get('/customers/:id/order', apiController.getOrderByCustomerId);
+router.get('/customers/:id/orders', apiController.getOrderByCustomerId);
 
 module.exports = router;
