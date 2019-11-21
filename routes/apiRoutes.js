@@ -1,17 +1,17 @@
 const router = require('express').Router();
 const apiController = require('../controllers/apiController')();
 
-router.get('/employee', apiController.getEmployees);
-router.get("/employee/:id", apiController.getEmployeeById);
+router.get('/employees', apiController.getEmployees);
+router.get("/employees/:id", apiController.getEmployeeById);
 
-router.get('/form', apiController.getForms);
-router.get("/form/:id", apiController.getFormById);
+router.get('/forms', apiController.getForms);
+router.get("/forms/:id", apiController.getFormById);
 
-router.get('/grocery', apiController.getGroceries);
-router.get("/grocery/:id", apiController.getGroceryById);
+router.get('/groceries', apiController.getGroceries);
+router.get("/groceries/:id", apiController.getGroceryById);
 
-router.get('/customer', apiController.getCustomers);
-router.get("/customer/:id", apiController.getCustomerById);
-router.get('/customer/:id/order', apiController.getOrderByCustomerId);
+router.get('/customers', apiController.getCustomers);
+router.get("/customers/:id", apiController.getCustomerById);
+router.get('/customers/:id/order', apiController.getOrderByCustomerId);
 
 module.exports = router;
