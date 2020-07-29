@@ -7,10 +7,10 @@
     "address": "1234 Anywhere St.",
     "city": "Phoenix",
     "state": {
-        "abbreviation": "AZ",
-        "name": "Arizona"
+      "abbreviation": "AZ",
+      "name": "Arizona"
     },
-    "orderTotal": 40.99
+    "orderTotal": 29.98
   },
   {
     "id": 2,
@@ -20,10 +20,10 @@
     "address": "345 Cedar Point Ave.",
     "city": "Los Angeles",
     "state": {
-        "abbreviation": "CA",
-        "name": "California"
+      "abbreviation": "CA",
+      "name": "California"
     },
-    "orderTotal": 89.99
+    "orderTotal": 207.98
   },
   {
     "id": 3,
@@ -33,10 +33,10 @@
     "address": "1822 Long Bay Dr.",
     "city": "Las Vegas",
     "state": {
-        "abbreviation": "NV",
-        "name": "Nevada"
+      "abbreviation": "NV",
+      "name": "Nevada"
     },
-    "orderTotal": 29.99
+    "orderTotal": 8.98
   },
   {
     "id": 4,
@@ -46,10 +46,10 @@
     "address": "79455 Pinetop Way",
     "city": "Seattle",
     "state": {
-        "abbreviation": "WA",
-        "name": " Washington "
+      "abbreviation": "WA",
+      "name": " Washington "
     },
-    "orderTotal": 15.99
+    "orderTotal": 179.79
   },
   {
     "id": 5,
@@ -59,10 +59,10 @@
     "address": "576 Crescent Blvd.",
     "city": "Chandler",
     "state": {
-        "abbreviation": "AZ",
-        "name": "Arizona"
+      "abbreviation": "AZ",
+      "name": "Arizona"
     },
-    "orderTotal": 29.99
+    "orderTotal": 25.48
   },
   {
     "id": 6,
@@ -72,10 +72,10 @@
     "address": "9874 Center St.",
     "city": "Mountain View ",
     "state": {
-        "abbreviation": "CA",
-        "name": "California"
+      "abbreviation": "CA",
+      "name": "California"
     },
-    "orderTotal": 49.99
+    "orderTotal": 468.68
   },
   {
     "id": 7,
@@ -85,10 +85,10 @@
     "address": "9812 Builtway Appt #1",
     "city": "Mountain View",
     "state": {
-        "abbreviation": "CA",
-        "name": "California"
+      "abbreviation": "CA",
+      "name": "California"
     },
-    "orderTotal": 19.99
+    "orderTotal": 24.75
   },
   {
     "id": 8,
@@ -98,10 +98,10 @@
     "address": "4651 Tuvo St.",
     "city": "Chandler",
     "state": {
-        "abbreviation": "AZ",
-        "name": "Arizona"
+      "abbreviation": "AZ",
+      "name": "Arizona"
     },
-    "orderTotal": 9.99
+    "orderTotal": 321.4
   },
   {
     "id": 9,
@@ -111,10 +111,10 @@
     "address": "66 Ray St.",
     "city": "Orlando",
     "state": {
-        "abbreviation": "FL",
-        "name": "Florida"
+      "abbreviation": "FL",
+      "name": "Florida"
     },
-    "orderTotal": 149.99
+    "orderTotal": 829.4
   },
   {
     "id": 10,
@@ -124,8 +124,8 @@
     "address": "1455 Chandler Blvd.",
     "city": "Atlanta",
     "state": {
-        "abbreviation": "GA",
-        "name": "Georgia"
+      "abbreviation": "GA",
+      "name": "Georgia"
     },
     "orderTotal": 299.99
   },
@@ -137,9 +137,9 @@
     "address": "888 Central St.",
     "city": "San Francisco",
     "state": {
-        "abbreviation": "CA",
-        "name": "California"
+      "abbreviation": "CA",
+      "name": "California"
     },
-    "orderTotal": 29.98
+    "orderTotal": 499.0
   }
 ]
