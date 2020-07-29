@@ -5,7 +5,7 @@ const formData = require('../data/form.json');
 const groceryData = require('../data/grocery.json');
 
 module.exports = function () {
-  const filter = function(id, data, filterField = 'id') {
+  const filter = function (id, data, filterField = 'id') {
     return data.filter(item => item[filterField] + '' === id);
   };
 
@@ -17,7 +17,7 @@ module.exports = function () {
       res.status(200).json(filter(req.params.id, customerData));
     },
     getOrderByCustomerId: function (req, res) {
-      res.status(200).json(filter(req.params.id, orderData, 'customerId'));
+      res.status(200).json(filter(req.params.id, orderData, 'customerId')[0]);
     },
     getEmployees: function (req, res) {
       res.json(employeeData);
